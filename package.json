@@ -1,0 +1,14 @@
+{
+  "name": "esn-genesis-checker",
+  "version": "0.1",
+  "license": "PublicDomain",
+  "author": "Won-Kyu Park <wkpark@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wkpark/esn-genesis-check.git"
+  },
+  "main": "check.js",
+  "dependencies": {
+    "bignumber.js": "^7.2.1"
+  }
+}
