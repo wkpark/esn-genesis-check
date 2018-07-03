@@ -44,8 +44,8 @@ Object.keys(esn.accounts).forEach((k) => {
   }
 });
 
-console.log("Total ESN = " + totalesn.div(100000000000000000).toString());
-console.log("Total ETSC = " + totaletsc.div(100000000000000000).toString());
+console.log("Total ESN = " + totalesn.div(1000000000000000000).toString());
+console.log("Total ETSC = " + totaletsc.div(1000000000000000000).toString());
 console.log("");
 console.log("Total " + i + " accounts matched / " + j + " accounts not matched / ", n + " accounts ESN only");
 console.log("Total " + Object.keys(etsc.accounts).length + " accounts ETSC only");
